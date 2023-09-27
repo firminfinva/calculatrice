@@ -13,6 +13,10 @@ function calculatrice(term1 , operation, term2){
     }
 }
  // function to create add, subs, div, mult
+ function div(a,b){
+    return a/b;
+ }
+
  function subs(a, b){
        return a - b;
    }
