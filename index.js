@@ -13,15 +13,26 @@ function calculatrice(term1 , operation, term2){
     }
 }
  // function to create add, subs, div, mult
+ function div(a,b){
+    return a/b;
+ }
+
  function subs(a, b){
        return a - b;
    }
    
+
      function mult(a,b){
         return a*b
     }
+
+function add(a, b){
+    return a + b;
+}
+
 let response = calculatrice(4, "*", 2)
 console.log(response);
+/*commentairedd*/
 
 
 
