@@ -1,5 +1,8 @@
 function calculatrice(term1 , operation, term2){
 //function operation
+function add(a, b) {
+    return a + b;
+}
 }
  // function to create add, subs, div, mult
 
