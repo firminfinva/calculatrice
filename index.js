@@ -16,6 +16,9 @@ function calculatrice(term1 , operation, term2){
  function subs(a, b){
        return a - b;
    }
+   function div(a,b){
+    return a/b;
+ }
 let response = calculatrice(4, "*", 2)
 console.log(response);
 
